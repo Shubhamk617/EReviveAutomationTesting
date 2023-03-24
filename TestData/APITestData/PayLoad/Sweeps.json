@@ -1,0 +1,26 @@
+{
+  "header": {
+    "key": "Accept",
+    "value": "application/json"
+  },
+  "param": {
+    "key": "stateCode",
+    "value": "VA"
+  },
+  "Content-Type": {
+    "key": "Content-Type",
+    "value": "application/json"
+  },
+
+  "MARLBORO": {
+    "RequestDOI": {
+      "CCN": "480828002"
+    },
+    "promo_env": "promo-s02",
+    "promo_name": "green3",
+    "expired_promo_name": "green2",
+    "UnusedCCN": "700192956",
+    "CCNtakenSweeps": "704529718"
+
+  }
+}

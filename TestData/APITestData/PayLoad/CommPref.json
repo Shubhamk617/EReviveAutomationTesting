@@ -1,0 +1,23 @@
+{
+  "MARLBORO": {
+    "RequestDOI": {
+      "CCN": "480828002"
+    },
+    "concom_env": "concom-s02",
+    "CommPref": {
+      "ccn": "18941235",
+      "communicationPreferences": [
+        {
+          "communicationTypeCd": "SMS",
+          "communicationPreferences": [
+            {
+              "preferenceName": "COMPREF_MPW_RMDR_27",
+              "preferenceValue": "P",
+              "mobilePhone": "3128348006"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

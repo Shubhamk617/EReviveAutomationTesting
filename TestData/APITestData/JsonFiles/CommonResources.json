@@ -1,0 +1,14 @@
+{
+"version": "v3",
+"bearerToken_code": "535b2d87-664f-415a-b7fa-fd3f1086d450",
+ "atc": {
+    "vendor": {
+      "cd": "A18"
+    },
+    "channel": {
+      "type": {
+        "cd": "BW"
+      }
+    }
+ }
+}

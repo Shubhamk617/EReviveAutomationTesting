@@ -1,0 +1,43 @@
+
+{
+  "RetailLocation": "RetailLocation-s02",
+  "version": "v2",
+  "store": "NearByStores",
+  "codeType1": "GetByAddress",
+  "codeType2": "Get",
+  "codeType3": "GetByZip",
+  "expectedVal": "IL",
+
+  "CurAddress": {
+    "key": "CurAddress",
+    "value": "IL"
+  },
+  "CurCity": {
+    "key": "CurCity",
+    "value": "palatine"
+  },
+  "CurState": {
+    "key": "CurState",
+    "value": "IL"
+  },
+  "CurZipCode": {
+    "key": "CurZipCode",
+    "value": "60067"
+  },
+  "Radius": {
+    "key": "Radius",
+    "value": "15"
+  },
+  "CurLatitude": {
+    "key": "CurLatitude",
+    "value": "42.1112958"
+  },
+  "CurLongitude": {
+    "key": "CurLongitude",
+    "value": "-88.0607565"
+  },
+  "surveyObject": {
+    "key": "errorMessage",
+    "value": "Please select an option."
+  }
+}

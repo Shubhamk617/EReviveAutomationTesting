@@ -1,0 +1,222 @@
+{
+  "QA": {
+    "marlboro": {
+      "CCN":"70751993",
+      "CCN1":"18941235",
+      "CCN2":"18907975",
+      "InvalidCCN":"123456789",
+      "InvalidAddressCCN": "6097174",
+      "customerId": "1040306"
+    },
+    "chesterfield": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "copenhagen": {
+      "CCN":"37682960",
+      "customerId": "1124307"
+    },
+    "iqos": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "lm": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "blackandmild": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "myparliament": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "redseal": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "skoal": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "virginiaslims": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "h20": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "ccnLookup_env": "aim-STG",
+    "loyalty_env": "loyalty",
+    "promo_env": "promo",
+    "program_version": "v1",
+    "dvp_env": "dvp",
+    "dvp_version": "v2.1",
+    "prop_env":"propdb-s02"
+   },
+   "STAGE": {
+    "marlboro": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "chesterfield": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+
+    "copenhagen": {
+      "CCN":"37682960",
+      "customerId": "1124307"
+    },
+    "iqos": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "lm": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "blackandmild": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "myparliament": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "redseal": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "skoal": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "virginiaslims": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "h20": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "ccnLookup_env": "aim-STR",
+    "loyalty_env": "loyalty-s01",
+    "promo_env": "promo",
+    "program_version": "v1",
+    "dvp_env":"dvp",
+    "dvp_version":"v2.1"
+  },
+
+  "PREPROD": {
+    "marlboro": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "chesterfield": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+
+    "copenhagen": {
+      "CCN":"37682960",
+      "customerId": "1124307"
+    },
+    "iqos": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "lm": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "blackandmild": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "myparliament": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "redseal": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "skoal": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "virginiaslims": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "h20": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "ccnLookup_env": "aim-STG",
+    "loyalty_env": "loyalty-s02",
+    "promo_env": "promo",
+    "program_version": "v1",
+    "dvp_env":"dvp",
+    "dvp_version":"v2.1"
+
+  },
+
+  "PROD": {
+    "marlboro": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "chesterfield": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+
+    "copenhagen": {
+      "CCN":"37682960",
+      "customerId": "1124307"
+    },
+    "iqos": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "lm": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "blackandmild": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "myparliament": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "redseal": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "skoal": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "virginiaslims": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "h20": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "ccnLookup_env": "aim",
+    "loyalty_env": "loyalty",
+    "promo_env": "promo",
+    "program_version": "v1",
+    "dvp_env":"dvp",
+    "dvp_version":"v2.1"
+
+  }
+}

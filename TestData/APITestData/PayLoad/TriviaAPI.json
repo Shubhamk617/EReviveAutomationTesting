@@ -1,0 +1,20 @@
+{
+  "Order_env": "propdb-s02",
+  "triviaId": "trivia-1668679897724",
+  "endDate": "02-28-2023T12:59:00",
+  "startDate": "09-14-2022T12:59:00",
+  "CCN": "850003406",
+
+
+  "questions": {
+    "quesId": "quesId1-1668679897724"
+  },
+
+
+  "SubmitUserTrivia": {
+    "triviaId": "trivia-1234",
+    "selectedOption": "2",
+    "quesId": "ques1-2345"
+  }
+
+}

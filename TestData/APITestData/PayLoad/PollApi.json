@@ -1,0 +1,70 @@
+{
+  "submitCCNEntry" :
+  {
+    "optionId": "2"
+  },
+  "userRegister" :
+  {
+    "pollId": "poll-1653024368639",
+    "startdate": "05-10-2022T15:06:00",
+    "endDate": "06-23-2023T15:06:00",
+    "frequency": {
+      "type": "once"
+    },
+    "answers": [
+      {
+        "count": 0,
+        "optionId": 0
+      },
+      {
+        "count": 0,
+        "optionId": 1
+      },
+      {
+        "count": 0,
+        "optionId": 2
+      },
+      {
+        "count": 0,
+        "optionId": 3
+      }
+    ]
+  },
+  "pollRegistration" :
+  {
+    "pollId": "poll-1653024368639",
+    "startdate": "05-10-2022T15:06:00",
+    "endDate": "06-23-2023T15:06:00",
+    "frequency": {
+      "type": "once"
+    },
+    "answers": [
+      {
+        "count": 0,
+        "optionId": 0
+      },
+      {
+        "count": 0,
+        "optionId": 1
+      },
+      {
+        "count": 0,
+        "optionId": 2
+      },
+      {
+        "count": 0,
+        "optionId": 3
+      }
+    ]
+  },
+    "poll_env":"propdb-s02",
+    "pollId": "poll-1653024368639",
+    "CustomerID": "6422971",
+    "version": "v1",
+    "website-id": "27",
+    "CompoundName": "bw-poll",
+  "QA": {
+    "Env1": "propdb-s02",
+    "Env2": "propdb"
+  }
+}

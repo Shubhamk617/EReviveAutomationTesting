@@ -1,0 +1,11 @@
+{ "MARLBORO": {
+  "MulticcnLookup_env": "aim-STG",
+  "MultiCCNLookup_Api": {"FilteredAttributes":[{"Name":"FIRST NAME"},{"Name":"LAST NAME INITIAL"},{"Name":"MIDDLE NAME"},{"Name":"AGE"},{"Name":"ADDRESS LINE 1"},{"Name":"ADDRESS LINE 2"},{"Name":"CITY"},{"Name":"STATE"},{"Name":"ZIP"}],"CCNdata":[{"CCN":"70751993"},{"CCN":"18941235"}]},
+  "MultiCCNLookup_specific": {"FilteredAttributes":[{"Name":"FIRST NAME"},{"Name":"MIDDLE NAME"},{"Name":"CITY"}],"CCNdata":[{"CCN":"70751993"},{"CCN":"18941235"}]},
+  "MultiCCNLookup_ValidNInvalidCCN": {"FilteredAttributes":[{"Name":"FIRST NAME"},{"Name":"MIDDLE NAME"},{"Name":"CITY"}],"CCNdata":[{"CCN":"70751993"},{"CCN":"123456789"}]},
+  "MultiCCNLookup_NoCCN": {"FilteredAttributes":[{"Name":"FIRST NAME"},{"Name":"MIDDLE NAME"},{"Name":"CITY"}],"CCNdata":[]},
+  "MultiCCNLookup_NoFilter": {"FilteredAttributes":[],"CCNdata":[{"CCN":"70751993"},{"CCN":"18941235"}]},
+  "MultiCCNLookup_FiltersNotMatch": {"FilteredAttributes":[{"Name":"FIRST"},{"Name":"LAST NAME INITIAL"},{"Name":"NAME"},{"Name":"AGE"},{"Name":"ADDRESS LINE 1"},{"Name":"ADDRESS LINE 2"},{"Name":"CITY"},{"Name":"STATE"},{"Name":"ZIP"}],"CCNdata":[{"CCN":"70751993"},{"CCN":"18941235"}]}
+
+    }
+}

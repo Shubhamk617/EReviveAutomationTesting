@@ -1,0 +1,102 @@
+{
+
+
+  "grantType": {
+    "key": "grant_type",
+    "value": "client_credentials"
+  },
+  "Content-Type": {
+    "key": "Content-Type",
+    "value": "application/json"
+  },
+  "isActive": {
+    "key": "isActive",
+    "value": "true"
+  },
+  "status": {
+    "key": "status",
+    "value": "A"
+  },
+  "offers": {
+   "quantity": "1"
+  },
+  "stateCode": {
+    "key": "stateCode",
+    "value": "TX"
+  },
+  "topMostRedeemed": {
+    "key": "topMostRedeemed",
+    "value": "12"
+  },
+  "type": {
+    "key": "type",
+    "value": "12"
+  },
+  "excludeZero": {
+    "key": "excludeZero",
+    "value": "true"
+  },
+
+  "topMostRedeemed": {
+    "key": "topMostRedeemed",
+    "value": "12"
+  },
+  "ATC": {
+    "bearerToken": {
+      "clientId": {
+        "key": "client_id",
+        "value": "d2af1e7d-7b32-4bbd-a5b3-773fc52e1e5d"
+      },
+      "clientSecret": {
+        "key": "client_secret",
+        "value": "FF92FE18e203644FD1d619bd245FC5"
+      }
+
+    }
+  },
+  "DVP": {
+    "bearerToken": {
+      "clientId": {
+        "key": "client_id",
+        "value": "5334303d-0f75-407b-b116-1b001f02a09a"
+      },
+      "clientSecret": {
+        "key": "client_secret",
+        "value": "zII8Q~HRFeuVWNscWQiiFXz4ReW3M.3~oL1RobLA"
+      },
+      "timestamp": {
+        "key": "timestamp",
+        "value": "2017-05-29 10:13:27Z"
+      }
+    }
+  },
+  "ATC_PROD": {
+    "bearerToken": {
+      "clientId": {
+        "key": "client_id",
+        "value": null
+      },
+      "clientSecret": {
+        "key": "client_secret",
+        "value": null
+      }
+
+    }
+  },
+  "DVP_PROD": {
+    "bearerToken": {
+      "clientId": {
+        "key": "client_id",
+        "value": null
+      },
+      "clientSecret": {
+        "key": "client_secret",
+        "value": null
+      },
+      "timestamp": {
+        "key": "timestamp",
+        "value": "2017-05-29 10:13:27Z"
+      }
+    }
+  }
+}

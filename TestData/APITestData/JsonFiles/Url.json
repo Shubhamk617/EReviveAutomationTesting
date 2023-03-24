@@ -1,0 +1,20 @@
+
+
+{
+
+"bearerToken_baseurl_QA":"https://login.microsoftonline.com",
+  "bearerToken_baseurl_STAGE":"https://login.microsoftonline.com",
+  "bearerToken_baseurl_UAT":"https://login.microsoftonline.com",
+  "bearerToken_baseurl_PREPROD":"https://login.microsoftonline.com",
+"baseUrl_QA":"https://agdcqaapimgmt.azure-api.net",
+  "baseUrl_STAGE":"https://agdcqaapimgmt.azure-api.net",
+  "baseUrl_PREPROD":"https://agdcqaapimgmt.azure-api.net",
+  "baseUrl_PROD": "https://agdcapimgmt.azure-api.net",
+  "baseUrl_QA_UGC":"https://services.onesite.com",
+  "baseUrl_PREPROD_UGC":"https://services.onesite.com",
+  "DamBaseURL_DEV": "https://dev-cdam65-rs.dxide.com",
+  "DamBaseURL_PREPROD": "https://author01useast1.stage.altria.adobecqms.net",
+  "DamBaseURL_PROD": "https://author-altria-assets65-prod02.adobecqms.net"
+
+}
+

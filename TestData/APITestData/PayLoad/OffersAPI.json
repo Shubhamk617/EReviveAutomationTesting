@@ -1,0 +1,59 @@
+{
+  "MARLBORO": {
+    "CCN": "70751993",
+    "CCN1": "77271292",
+    "InvalidCCN": "123456789",
+    "customerId": "1040306",
+    "zipCode": "23111",
+    "Order_env": "propdb-s02",
+    "Offers_env": "dvp-s02",
+    "State_code": "VA"
+  },
+  "offers": {
+    "quantity": "1"
+  },
+  "RedeemOffer" : {
+    "id": "OB609",
+    "offerType": "BBK",
+    "quantity": 1,
+    "discountCode": "222P7202",
+    "consumer": {
+      "consumerName": {
+        "firstName": "Fancy",
+        "lastName": "Pants"
+      },
+      "consumerContact": {
+        "phone": "2125551212",
+        "emailAddress": "fancy@pants.com"
+      },
+      "address": {
+        "streetOne": "123 Main Street",
+        "city": "Schenectady",
+        "stateCode": "NY",
+        "postalCode": "12345"
+      }
+    }
+  },
+  "RedeemOfferInvalidId" : {
+    "id": "OU460",
+    "offerType": "BBK",
+    "quantity": 1,
+    "discountCode": "222P7202",
+    "consumer": {
+      "consumerName": {
+        "firstName": "Fancy",
+        "lastName": "Pants"
+      },
+      "consumerContact": {
+        "phone": "2125551212",
+        "emailAddress": "fancy@pants.com"
+      },
+      "address": {
+        "streetOne": "123 Main Street",
+        "city": "Schenectady",
+        "stateCode": "NY",
+        "postalCode": "12345"
+      }
+    }
+  }
+}

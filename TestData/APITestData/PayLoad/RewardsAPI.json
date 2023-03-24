@@ -1,0 +1,120 @@
+{
+  "version": "v3",
+  "atc": {
+    "vendor": {
+      "cd": "A18"
+    },
+    "channel": {
+      "type": {
+        "cd": "BW"
+      }
+    }
+  },
+  "status": {
+    "key": "status",
+    "value": "A"
+  },
+  "stateCode": {
+    "key": "stateCode",
+    "value": "TX"
+  },
+  "rewardCategory": {
+    "key": "code",
+    "value": "NEWITEM"
+  },
+  "stateCodeVA": {
+    "key": "stateCode",
+    "value": "VA"
+  },
+  "categoryCodes": "CHARITY",
+
+
+  "EarnPoints": {
+    "code": "TEST_WA",
+    "ccn": "934903",
+    "codeType": "WEB_ACTIVITY_CODE_TYPE",
+    "date": "2021-09-27T05:21:11.469Z",
+    "scanInfo": null,
+    "deviceType": "DT"
+  },
+  "NegEarnPointsCustID": {
+    "code": "TEST_WA",
+    "ccn": "934903",
+    "codeType": "WEB_ACTIVITY_CODE_TYPE",
+    "date": "2021-09-27T05:21:11.469Z",
+    "scanInfo": null,
+    "deviceType": "DT"
+  },
+
+  "RewardWishlist": {
+    "rewardCode": "KAB001",
+    "deviceType": "DT"
+  },
+  "NegRewardWishlistCustID": {
+    "rewardCode": "KAB001",
+    "deviceType": "DT"
+  },
+
+  "points":
+  {
+    "main": "700000"
+  },
+  "QA": {
+    "marlboro": {
+      "CCN":"70751993",
+      "CCN1":"18941235",
+      "CCN2":"18907975",
+      "InvalidCCN":"123456789",
+      "InvalidAddressCCN": "6097174",
+      "customerId": "1040306"
+    },
+    "chesterfield": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "copenhagen": {
+      "CCN":"37682960",
+      "customerId": "1124307"
+    },
+    "iqos": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "lm": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "blackandmild": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "myparliament": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "redseal": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "skoal": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "virginiaslims": {
+      "CCN":"6097174",
+      "customerId": "1040306"
+    },
+    "h20": {
+      "CCN":"70751993",
+      "customerId": "1124307"
+    },
+    "ccnLookup_env": "aim-STG",
+    "Env1": "loyalty",
+    "Env2": "loyalty-s02",
+    "promo_env": "promo",
+    "program_version": "v1",
+    "dvp_env":"dvp",
+    "dvp_version":"v2.1"
+
+  }
+}

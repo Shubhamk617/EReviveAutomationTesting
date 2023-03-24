@@ -1,0 +1,14 @@
+runOnly:
+  type: tag
+  values:
+    - wcag2a
+    - wcag2aa
+    - section508
+resultTypes:
+  - violations
+  - incomplete
+  - inapplicable
+rules:
+  accesskeys:
+    enabled: false
+reporter: v2

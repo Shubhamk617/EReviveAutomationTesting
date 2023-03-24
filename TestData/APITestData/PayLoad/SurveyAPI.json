@@ -1,0 +1,39 @@
+{
+  "ccnLookup_env": "AIM-STG",
+  "code": "EQ1",
+
+  "surveyObject": {
+  "errorMessage": "Please select an option."
+   },
+
+
+  "POST": {
+    "CCN": "2666039",
+    "SurveyData": [
+      {
+        "SurveyQuestionId": "20416",
+        "SurveyResponseData": [
+          {
+            "ResponseID": "8307"
+          }
+        ]
+      },
+      {
+        "SurveyQuestionId": "2",
+        "SurveyResponseData": [
+          {
+            "ResponseID": "4603"
+          }
+        ]
+      },
+      {
+        "SurveyQuestionId": "3",
+        "SurveyResponseData": [
+          {
+            "ResponseID": "4605"
+          }
+        ]
+      }
+    ]
+  }
+}

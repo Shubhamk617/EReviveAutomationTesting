@@ -1,0 +1,318 @@
+{
+  "version": "v1",
+  "CompName": "loyaltylite",
+  "deviceType": "DT",
+  "codeCadence": "monthly",
+  "CustomerID": "480824195",
+  "RedeemCode": "iqosperks20",
+  "client-code": "IQOS",
+  "website-id": "400",
+  "status": {
+    "key": "status",
+    "value": "A"
+  },
+  "stateCode": {
+    "key": "stateCode",
+    "value": "TX"
+  },
+  "QA": {
+    "Env1": "propdb-s02",
+    "Env2": "propdb"
+  },
+  "EarnPromo": [{
+    "result": {
+      "resolve": "propName",
+      "value": "totalPointsEarned"
+    },
+    "operation": "addToResult",
+    "operands": [
+      {
+        "resolve": "literal",
+        "value": 1
+      }
+    ]
+  },
+    {
+      "result": {
+        "resolve": "propName",
+        "value": "availablePoints"
+      },
+      "operation": "addToResult",
+      "operands": [
+        {
+          "resolve": "literal",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "result": {
+        "resolve": "propName",
+        "value": "lastEarnActivity"
+      },
+      "operation": "replaceObject",
+      "operands": [
+        {
+          "resolve": "object",
+          "value": "{{currentDate}}"
+        }
+      ]
+    },
+    {
+      "result": {
+        "resolve": "propName",
+        "value": "earnActivityTracking"
+      },
+      "operation": "appendObject",
+      "operands": [
+        {
+          "resolve": "object",
+          "value": {
+            "deviceType": "DT",
+            "totalPointsAfterEarned": 4,
+            "time": "{{currentDate}}"
+          }
+        }
+      ]
+    }
+  ],
+  "EarnMonthly":
+[{
+  "result": {
+    "resolve": "propName",
+    "value": "totalPointsEarned"
+  },
+  "operation": "addToResult",
+  "operands": [
+    {
+      "resolve": "literal",
+      "value": 1
+    }
+  ]
+},
+  {
+    "result": {
+      "resolve": "propName",
+      "value": "totalMonthlyEarned"
+    },
+    "operation": "replaceObject",
+    "operands": [
+      {
+        "resolve": "object",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "result": {
+      "resolve": "propName",
+      "value": "availablePoints"
+    },
+    "operation": "addToResult",
+    "operands": [
+      {
+        "resolve": "literal",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "result": {
+      "resolve": "propName",
+      "value": "lastEarnActivity"
+    },
+    "operation": "replaceObject",
+    "operands": [
+      {
+        "resolve": "object",
+        "value": "08-07-2020T01:27:29"
+      }
+    ]
+  },
+  {
+    "result": {
+      "resolve": "propName",
+      "value": "earnActivityTracking"
+    },
+    "operation": "appendObject",
+    "operands": [
+      {
+        "resolve": "object",
+        "value": {
+          "deviceType": "DT",
+          "totalPointsAfterEarned": 4,
+          "time": "08-07-2020T01:27:29"
+        }
+      }
+    ]
+  }
+],
+  "ProgramRegister": {
+    "changeHistory": [
+      {
+        "codeEntryFreezeDate": "12-31-2021T00:00:00",
+        "maxCodeEntryCount": "20",
+        "programEndDate": "12-31-2021T00:00:00",
+        "codeCadence": "monthly",
+        "expiry": "days",
+        "expiryDays": "181",
+        "programStartDate": "09-01-2019T00:00:00"
+      }
+    ],
+    "codeEntryFreezeDate": "12-31-2021T00:00:00",
+    "maxCodeEntryCount": "20",
+    "programEndDate": "12-31-2021T00:00:00",
+    "codeCadence": "monthly",
+    "expiry": "days",
+    "expiryDays": "181",
+    "programStartDate": "09-01-2019T00:00:00"
+  },
+  "UserPointsReset" : {
+    "totalMonthlyEarned": 100,
+    "lastEarnActivity": "05-05-2021T04:26:18",
+    "totalPointsEarned": 100,
+    "totalPointsBurned": 0,
+    "lastBurnActivity": "05-24-2021T08:08:04",
+    "burnedActivityTracking": [
+      {
+        "deviceType": "DT",
+        "pointsBurned": 0,
+        "offerID": "NG050",
+        "time": "05-24-2021T08:08:04",
+        "availablePointsAfterRedemption": 270
+      },
+      {
+        "deviceType": "DT",
+        "pointsBurned": 0,
+        "offerID": "NG050",
+        "time": "05-24-2021T08:08:04",
+        "availablePointsAfterRedemption": 270
+      },
+      {
+        "deviceType": "DT",
+        "pointsBurned": 0,
+        "offerID": "NG050",
+        "time": "05-24-2021T08:08:04",
+        "availablePointsAfterRedemption": 270
+      },
+      {
+        "deviceType": "DT",
+        "pointsBurned": 0,
+        "offerID": "NG050",
+        "time": "05-24-2021T08:08:04",
+        "availablePointsAfterRedemption": 270
+      },
+      {
+        "deviceType": "DT",
+        "pointsBurned": 0,
+        "offerID": "NG050",
+        "time": "05-24-2021T08:08:04",
+        "availablePointsAfterRedemption": 270
+      }
+    ],
+    "availablePoints": 100,
+    "inActivityTracking": [
+      {
+        "totalPointsEarned": 6,
+        "totalPointsBurned": 5,
+        "ponitsResetDate": "08-14-2019T01:27:29"
+      }
+    ],
+    "earnActivityTracking": [
+      {
+        "deviceType": "DT",
+        "totalPointsAfterEarned": 1,
+        "time": "05-05-2021T04:16:32"
+      },
+      {
+        "deviceType": "DT",
+        "totalPointsAfterEarned": 2,
+        "time": "05-05-2021T04:17:37"
+      },
+      {
+        "deviceType": "DT",
+        "totalPointsAfterEarned": 3,
+        "time": "05-05-2021T04:26:18"
+      },
+      {
+        "deviceType": "DT",
+        "transferPoints": 1,
+        "totalPointsAfterEarned": 5,
+        "time": "05-27-2021T01:44:19"
+      },
+      {
+        "deviceType": "DT",
+        "transferPoints": 1,
+        "totalPointsAfterEarned": 6,
+        "time": "05-27-2021T01:45:07"
+      },
+      {
+        "deviceType": "DT",
+        "transferPoints": 1,
+        "totalPointsAfterEarned": 7,
+        "time": "05-27-2021T01:46:11"
+      }
+    ],
+    "isEnabledAutoRedemption": true
+  },
+  "BurnPoints": [
+    {
+      "result": {
+        "resolve": "propName",
+        "value": "totalPointsBurned"
+      },
+      "operands": [
+        {
+          "resolve": "object",
+          "value": 1
+        }
+      ],
+      "operation": "replaceObject"
+    },
+    {
+      "result": {
+        "resolve": "propName",
+        "value": "availablePoints"
+      },
+      "operands": [
+        {
+          "resolve": "literal",
+          "value": -15
+        }
+      ],
+      "operation": "addToResult"
+    },
+    {
+      "result": {
+        "resolve": "propName",
+        "value": "lastBurnActivity"
+      },
+      "operands": [
+        {
+          "resolve": "object",
+          "value": "08-07-2020T04:34:04"
+        }
+      ],
+      "operation": "replaceObject"
+    },
+    {
+      "result": {
+        "resolve": "propName",
+        "value": "burnedActivityTracking"
+      },
+      "operands": [
+        {
+          "resolve": "object",
+          "value": {
+            "deviceType": "DT",
+            "pointsBurned": 1,
+            "offerID": "NF037",
+            "time": "08-07-2020T04:34:04",
+            "availablePointsAfterRedemption": 0
+          }
+        }
+      ],
+      "operation": "appendObject"
+    }
+  ]
+}

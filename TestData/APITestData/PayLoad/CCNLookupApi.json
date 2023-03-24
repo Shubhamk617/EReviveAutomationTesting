@@ -1,0 +1,37 @@
+{ "MARLBORO": {
+  "ccnLookup_env": "aim-STG",
+  "CCNLookup_API": {
+    "CCN": "70751993",
+    "DataFlags":{"AvailabilityFlag":"N","SurveyResponseFlag":"Y","IndividualFlag":"N","ChannelContactFlag":"Y","ChannelDataShortFlag":"N","WebsiteFlag":"Y","BrandLoyaltyFlag":"N","FlexDataFlag":"N","RecentScoresFlag":"Y","QualificationFlag":"Y","ChannelTypeDataCd":[{"ChannelType":"EM"},{"ChannelType":"DM"},{"ChannelType":"TM"}]}
+  },
+  "CCNLookup_Api_InvalidAddress": {
+    "DataFlags": {
+      "AvailabilityFlag": "N",
+      "SurveyResponseFlag": "Y",
+      "IndividualFlag": "N",
+      "ChannelContactFlag": "Y",
+      "ChannelDataShortFlag": "N",
+      "WebsiteFlag": "Y",
+      "BrandLoyaltyFlag": "N",
+      "FlexDataFlag": "N",
+      "RecentScoresFlag": "Y",
+      "QualificationFlag": "Y",
+      "ChannelTypeDataCd": [
+        {
+          "ChannelType": "EM"
+        },
+        {
+          "ChannelType": "DM"
+        },
+        {
+          "ChannelType": "TM"
+        }
+      ]
+    },
+    "CCN": "6097174"
+  },
+  "CCNLookup_Api_InvalidCCN": {"CCN": "123456789"},
+  "CCNLookup_API_NoInputFlag": {"CCN":"70751993"},
+  "CCNLookup_Api_specificFlags": {"DataFlags":{"QualificationFlag":"Y"},"CCN":"70751993"}
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "MARLBORO": {
+    "dev_key": "efce4e7135a44cbf8b85767150f71995-icrossing",
+    "node_id": "268097",
+    "partner_id": "4129",
+    "userID": "237068577"
+  },
+  "LM": {
+    "dev_key": "pc8x95daozvqv9gc7i8f",
+    "node_id": "272938",
+    "partner_id": "4185",
+    "userID": "237068577"
+  },
+  "VS": {
+    "dev_key": "1azptrdietewl9lr0wxn",
+    "node_id": "275616",
+    "partner_id": "4215",
+    "userID": "237068577"
+  },
+  "IQOS": {
+    "dev_key": "yl8f91lkhmm8cwnv62p3",
+    "node_id": "303685",
+    "partner_id": "4287",
+    "userID": "237068577"
+  },
+  "REDSEAL": {
+    "dev_key": "avwj3qmjm9z5f8xrffdd",
+    "node_id": "272936",
+    "partner_id": "4181",
+    "userID": "237068577"
+  },
+  "SKOAL": {
+    "dev_key": "7b8866f5372ff6b21e3acf7e004e2b66-icrossing",
+    "node_id": "268101",
+    "partner_id": "4137",
+    "userID": "237068577"
+  },
+  "COPENHAGEN": {
+    "dev_key": "eeb59aead34e39ad3bb2797fe41a04d3-icrossing",
+    "node_id": "268099",
+    "partner_id": "4133",
+    "userID": "237068577"
+  },
+  "BLACKANDMILD": {
+    "dev_key": "29c3f61e1eed96ef96ca65a039bae75f-",
+    "node_id": "277235",
+    "partner_id": "4233",
+    "userID": "237068577"
+  },
+  "ABC": {
+    "dev_key": "29c3f61e1eed96ef96ca65a039bae75f-",
+    "node_id": "277235",
+    "partner_id": "4233",
+    "userID": "237068577"
+  },
+  "page": 1,
+  "number": 5
+}
